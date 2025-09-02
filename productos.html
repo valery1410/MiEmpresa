@@ -46,7 +46,33 @@
 <input type="number" placeholder="sin espacio"> <br>
 <Label>Correo</Label>
 <input type="email" required> <br>
+<label>Fecha de nacimiento:</label>
+<input type="date" min="1980-01-01" max="2007-12-31">  <br> 
+<label>Edad:</label>
+<input type="number" min="18" max="50"> <br>
+<label>sube una foto:</label>
+<input type="file" accept=".jpg, .png, .jpg"> <br>
+<label>selecciona un genero:</label>
+<input type="radio" name="genero" value="hombre">hombre
+<input type="radio" name="genero" value="mujer">mujer
+<input type="radio" name="genero" value="otro">otro
+<br>
+<label>selecciona productos:</label>
+<input type="checkbox" name="producto" value="tradicional"> tradicional
+<input type="checkbox" name="producto" value="semipermanente"> semipermanente
+<input type="checkbox" name="producto" value="acrilico"> acrilico
+<input type="checkbox" name="producto" value="press on"> press on
+<br>
+<label>¿como te contactamos?</label>
+<select name="contacto">
+    <option value="celular">celular</option>
+    <option value="Correo">Correo</option>
+</select>
+
+<br> <br> <br>
 <button type="submit">Enviar</button> 
+<button type="reset">borrar</button>
+
         </form>
     </div>
 </body>
